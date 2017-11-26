@@ -14,7 +14,7 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
 }
 
 body,html {
-  height: 100%;
+  height: auto;
   font-family: 'Questrial', Arial, sans-serif;
   font-size: 1em;
   margin: 20px auto 0;
@@ -22,9 +22,11 @@ body,html {
 }
 
 #imagelist {
+
   font-size: 0;
   width: 261px;
   margin: 0 auto;
+
 }
 
 #imagelist a {
@@ -32,16 +34,30 @@ body,html {
   margin: 2px;
   border: 4px solid transparent;
   display: inline-block;
+  -webkit-border-radius: 10px;
   border-radius: 10px;
+  opacity: .5;
+
+-webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
 }
+
+#responsive-image {
+  width: 100%;
+  height: auto;
+} 
+
+
 
 #imagelist a:hover {
 
   border-color: white;
+  opacity: 1;
 }
 
 #imagelist img {
 
+  -webkit-border-radius: 6px;
   border-radius: 6px;
 }
 
@@ -144,13 +160,18 @@ h2 {
 
 div#People {
   background: url(/img/people/shades.jpg) no-repeat scroll center 59px/100px 100px;
+  border-radius: 10px;
 
 }
 
 div#Places {
   background: url(/img/places/tokyo_japan.jpg) no-repeat scroll center 59px/100px 100px;
+  border-radius: 10px;
+
 }
 
 div#Pets {
   background: url(/img/pets/hellokitty.jpg) no-repeat scroll center 59px/100px 100px;
+  border-radius: 10px;
+
 }
