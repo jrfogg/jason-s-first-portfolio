@@ -1,0 +1,132 @@
+/*** web fonts ***/
+@import url(https://fonts.googleapis.com/css?family=Luckiest+Guy:400);
+@import url(https://fonts.googleapis.com/css?family=Questrial:400);
+
+
+/*** basic reset ***/
+box-sizing: inherit;{
+
+}
+
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
+
+    padding: 7px;
+}
+
+body,html {
+  height: 100%;
+  font-family: 'Questrial', Arial, sans-serif;
+  font-size: 1em;
+  margin: 20px auto 0;
+  width: 80%;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+header h1 {
+  font-family: 'Luckiest Guy' cursive;
+  font-size: 3em;
+
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+
+
+header nav a {
+    background-color: #f99d22;
+    border-radius: 4px;
+    color: inherit;
+    padding: 0.5em;
+    text-decoration: none;
+}
+
+
+nav ul {
+  margin-top: 1em;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  text-decoration-color: black;
+  width: 20em;
+
+}
+
+li {
+  list-style-type: none;
+
+}
+
+nav a {
+  text-decoration: none;
+
+}
+div#feature{
+  border-radius: 4px;
+    display: table;
+    height: 30vh;
+    text-align: center;
+    width: 100%;
+}
+
+
+.cross {
+    height 100%;
+    background-image: url(/img/people/jason.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+
+a.active {
+    background-color: #e45026;
+    color: #fff;
+}
+
+div#feature h1 {
+    display: table-cell;
+    vertical-align: middle;
+}
+.container {
+  display: flex;
+  margin-top: 16px;
+
+
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.language {
+  display: flex;
+  flex-flow: column;
+  margin-top: 125px;
+}
+
+div#People {
+  background: url(/img/true-html5.png) no-repeat scroll center 59px/100px 100px;
+
+}
+
+div#Places {
+  background: url(/img/places/tokyo_japan.jpg) no-repeat scroll center 59px/100px 100px;
+}
+
+div#Pets {
+  background: url(/img/true-js.png) no-repeat scroll center 59px/100px 100px;
+}
