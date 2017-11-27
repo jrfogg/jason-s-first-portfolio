@@ -178,3 +178,8 @@ div#Pets {
   border-radius: 10px;
 
 }
+
+.column {
+  float: left;
+  width: 33.33%;
+}
