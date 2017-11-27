@@ -52,7 +52,7 @@ body,html {
 
 #imagelist a:hover {
 
-  border-color: white;
+  border-color: #fff;
   opacity: 1;
 }
 
@@ -166,7 +166,7 @@ div#People {
 }
 
 div#Places {
-  background: url(/img/places/tokyo_japan.jpg) no-repeat scroll center 59px/100px 100px;
+  background: url(/img/places/bridge.jpg) no-repeat scroll center 59px/100px 100px;
 -webkit-border-radius: 10px;
   border-radius: 10px;
 
