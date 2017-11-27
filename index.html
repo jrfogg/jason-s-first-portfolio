@@ -7,17 +7,63 @@
 <body>
 
   <header>
-      <h1>Jason's Fake Portfolio</h1>
-      <nav>
-        <ul>
-          <li><a href="#" class="active">About</a></li>
-          <li><a href="#">People</a></li>
-          <li><a href="#">Places</a></li>
-          <li><a href="#">Pets</a></li>
-        </ul>
-      </nav>
+    <h1>Jason's Fake Portfolio</h1>
+    <!-- Header -->
+    <div class="header">
+      <h1>Image Grid</h1>
+      <p>Click on the buttons to change the grid view.</p>
+      <button onclick="four()">4</button>
+      <button onclick="two()">2</button>
+      <button onclick="one()">1</button>
+    </div>
+    <!--<nav>
+    <ul>
+    <li><a href="#" class="active">About</a></li>
+    <li><a href="#">People</a></li>
+    <li><a href="#">Places</a></li>
+    <li><a href="#">Pets</a></li>
+  </ul>
+</nav>-->
 
-      <!-- Header -->
+
+</header>
+<div id="feature" class ="cross">
+  <h1>Welcome to my fake portfolio. Please enjoy!</h1>
+</div>
+
+<div class="container">
+  <div id= "People">
+
+
+    <h2>People</h2>
+
+    <p class= "language">
+      Random portraits of people I did not photograph.  However I felt these were pretty nice to use for my project.
+    </p>
+
+  </div>
+
+
+  <div id= "Places">
+    <h2>Places</h2>
+
+    <p class= "language">
+      Please enjoy the outstanding portraits of places I would like to visit.
+    </p>
+
+  </div>
+
+  <div id= "Pets">
+    <h2>Pets</h2>
+
+    <p class= "language">
+      This section is filled with awesome shots of great animal shots that I wish I photographed.
+    </p>
+
+  </div>
+
+</div>
+
 <div class="header">
   <h1>Image Grid</h1>
   <p>Click on the buttons to change the grid view.</p>
@@ -25,69 +71,30 @@
   <button onclick="two()">2</button>
   <button onclick="one()">1</button>
 </div>
-    </header>
-    <div id="feature" class ="cross">
-      <h1>Welcome to my fake portfolio. Please enjoy!</h1>
+
+<div id="imagelist">
+  <div class = "row">
+    <div class = "column" id= "column1">
+      <a href="/img/people/Dualipa.jpg"><img src="/img/people/Dualipa.jpg" alt= "Dua Lipa in concert" id="responsive-image"></a>
+      <a href="/img/people/jason.jpg"><img src="/img/people/jason.jpg" alt= "Me at Ocean City" id="responsive-image"></a>
+      <a href="/img/people/mother&child.jpg"><img src="/img/people/mother&child.jpg" alt= "Mother & Child" id="responsive-image"></a>
+      <a href="/img/people/shades.jpg"><img src="/img/people/shades.jpg" alt= "Shades" id="responsive-image"></a>
     </div>
 
-      <div class="container">
-        <div id= "People">
-
-
-          <h2>People</h2>
-
-          <p class= "language">
-          Random portraits of people I did not photograph.  However I felt these were pretty nice to use for my project.
-          </p>
-
-        </div>
-
-
-      <div id= "Places">
-        <h2>Places</h2>
-
-        <p class= "language">
-        Please enjoy the outstanding portraits of places I would like to visit.
-        </p>
-
-      </div>
-
-    <div id= "Pets">
-      <h2>Pets</h2>
-
-      <p class= "language">
-      This section is filled with awesome shots of great animal shots that I wish I photographed.
-      </p>
-
+    <div class = "column" id= "column2">
+      <a href="/img/pets/black_tabby.jpg"><img src="/img/pets/black_tabby.jpg" alt= " Fat Black Tabby Cat" id="responsive-image"></a>
+      <a href="/img/pets/gimmesum.jpg"><img src="/img/pets/gimmesum.jpg" alt= "Doggo want some pie" id="responsive-image">></a>
+      <a href="/img/pets/hellokitty.jpg"><img src="/img/pets/hellokitty.jpg" alt= "Maine Coon looking hungry"id="responsive-image"></a>
+      <a href="/img/pets/twoparrots.jpg"><img src="/img/pets/twoparrots.jpg" alt= "Two Parrots chillin" id="responsive-image"></a>
     </div>
 
+    <div class = "column" id= "column3">
+      <a href="/img/places/bridge.jpg"><img src="/img/places/bridge.jpg" alt= "Nice bridge shot, wish I photographed it" id="responsive-image"></a>
+      <a href="/img/places/newyork.jpg"><img src="/img/places/newyork.jpg" alt= "Big Apple" id="responsive-image"></a>
+      <a href="/img/places/tokyo_japan.jpg"><img src="/img/places/tokyo_japan.jpg" alt= "Home someday"id="responsive-image"></a>
+      <a href="/img/places/toronto.jpg"><img src="/img/places/toronto.jpg" alt= "The T.O!"id="responsive-image"></a>
     </div>
-
-    <div id="imagelist">
-      <div class = "row">
-        <div class = "column">
-
-    <a href="/img/people/Dualipa.jpg"><img src="/img/people/Dualipa.jpg" alt="Dua Lipa in concert" id="responsive-image"></a>
-    <a href="/img/people/jason.jpg"><img src="/img/people/jason.jpg" id="responsive-image"></a>
-    <a href="/img/people/mother&child.jpg"><img src="/img/people/mother&child.jpg" id="responsive-image"></a>
-    <a href="/img/people/shades.jpg"><img src="/img/people/shades.jpg" id="responsive-image"></a>
-
   </div>
-  <div class = "column">
-    <a href="/img/pets/black_tabby.jpg"><img src="/img/pets/black_tabby.jpg" id="responsive-image"></a>
-    <a href="/img/pets/gimmesum.jpg"><img src="/img/pets/gimmesum.jpg" id="responsive-image">></a>
-    <a href="/img/pets/hellokitty.jpg"><img src="/img/pets/hellokitty.jpg" id="responsive-image"></a>
-    <a href="/img/pets/twoparrots.jpg"><img src="/img/pets/twoparrots.jpg" id="responsive-image"></a>
-
-  </div>
-
-  <div class = "column">
-    <a href="/img/places/bridge.jpg"><img src="/img/places/bridge.jpg" id="responsive-image"></a>
-    <a href="/img/places/newyork.jpg"><img src="/img/places/newyork.jpg" id="responsive-image"></a>
-    <a href="/img/places/tokyo_japan.jpg"><img src="/img/places/tokyo_japan.jpg" id="responsive-image"></a>
-    <a href="/img/places/toronto.jpg"><img src="/img/places/toronto.jpg" id="responsive-image"></a>
-  </div>
-</div>
-<script>/js/main.js</script>
+  <script src="/js/main.js"></script>
 </body>
 </html>
