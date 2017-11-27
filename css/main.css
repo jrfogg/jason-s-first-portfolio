@@ -25,7 +25,7 @@ body,html {
 #imagelist {
 
   font-size: 0;
-  
+
   margin: 0 auto;
 
 }
@@ -64,6 +64,8 @@ body,html {
 
 h1 {
   font-size: 5em;
+  background-color: lightskyblue;
+  border-radius: 10px;
 }
 
 header h1 {
