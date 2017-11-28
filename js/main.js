@@ -1,4 +1,4 @@
-// Four images side by side
+// Four images layout
 function four() {
     var elements = document.getElementsByClassName("column");
     var i;
@@ -7,7 +7,7 @@ function four() {
     }
 }
 
-// Two images side by side
+// Two photo layout
 function two() {
     var elements = document.getElementsByClassName("column");
     var i;
@@ -16,7 +16,7 @@ function two() {
     }
 }
 
-// Full-width images
+// Full-width layout
 function one() {
     var elements = document.getElementsByClassName("column");
     var i;
