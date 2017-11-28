@@ -68,12 +68,12 @@ h1 {
   border-radius: 10px;
 }
 
-header h1 {
+/*header h1 {
   font-family: 'Luckiest Guy' cursive;
   font-size: 3em;
 
 }
-
+*/
 header {
   display: flex;
   flex-direction: column;
