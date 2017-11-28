@@ -11,7 +11,8 @@ box-sizing: inherit;{
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
 
     padding: 7px;
-    background-color: #f1f1f1;
+    background-color: deepskyblue;
+
 }
 
 body,html {
@@ -21,7 +22,7 @@ body,html {
   margin: 20px auto 0;
   width: 80%;
 }
-
+/**/
 #imagelist {
 
   font-size: 0;
@@ -29,7 +30,7 @@ body,html {
   margin: 0 auto;
 
 }
-
+/**/
 #imagelist a {
 
   margin: 2px;
@@ -42,14 +43,14 @@ body,html {
 -webkit-transition: all .3s ease-in;
   transition: all .3s ease-in;
 }
-
+/**/
 #responsive-image {
   width: 100%;
   height: auto;
 }
 
 
-
+/**/
 #imagelist a:hover {
 
   border-color: #fff;
@@ -61,19 +62,14 @@ body,html {
   -webkit-border-radius: 6px;
   border-radius: 6px;
 }
-
+/**/
 h1 {
   font-size: 5em;
   background-color: lightskyblue;
   border-radius: 10px;
-}
-
-/*header h1 {
-  font-family: 'Luckiest Guy' cursive;
-  font-size: 3em;
 
 }
-*/
+
 header {
   display: flex;
   flex-direction: column;
@@ -82,7 +78,7 @@ header {
 }
 
 
-
+/*
 header nav a {
     background-color: white;
     border-radius: 4px;
@@ -90,7 +86,7 @@ header nav a {
     padding: 0.5em;
     text-decoration: none;
 }
-
+*/
 
 nav ul {
   margin-top: 1em;
